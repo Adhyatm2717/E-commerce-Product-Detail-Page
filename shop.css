@@ -9,7 +9,8 @@
 body {
     /* background-color: #D3FFE9; */
     /* background-color: #f8f8ff; */
-    background-color: #fffafa;
+    /* background-color: #fffafa; */
+    background-color: rgba(208, 244, 244, 0.48);
     height: auto;
 }
 #logo {
@@ -235,4 +236,13 @@ hr {
     padding-left: 40px;
     font-size: 30px;
     text-decoration: underline;
+}
+.scroll-effect{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+}
+.scroll {
+    height: 450px;
 }
