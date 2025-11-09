@@ -9,8 +9,9 @@
 body {
     /* background-color: #D3FFE9; */
     /* background-color: #f8f8ff; */
-    /* background-color: #fffafa; */
-    background-color: rgba(208, 244, 244, 0.48);
+    background-color: #fffafa;
+    /* background-color: rgba(208, 244, 244, 0.48); */
+    /* background-color: #ffffff9d; */
     height: auto;
 }
 #logo {
@@ -245,4 +246,11 @@ hr {
 }
 .scroll {
     height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #fffafa;
+    border: none;
+}
+footer {
+    
+    text-align: center;
 }
